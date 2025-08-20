@@ -1,12 +1,33 @@
-# hyperspectral-image-classification
+# Hyperspectral Image Classification
 
+## Setup Instructions
 
-clone the repository
+### 1. Clone the repository
 
-create a virtual environment
+```bash
+git clone <repository-url>
+cd hyperspectral-image-classification
+```
+
+### 2. Create a virtual environment
+
+```bash
 python -m venv .venv
+```
 
-activating the virtual environment
-.venv\Scripts\Activate
+### 3. Activate the virtual environment
 
+- **Windows (PowerShell)**
+  ```powershell
+  .venv\Scripts\Activate
+  ```
+- **Mac/Linux**
+  ```bash
+  source .venv/bin/activate
+  ```
+
+### 4. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
