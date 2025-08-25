@@ -1,3 +1,5 @@
 notebook 
 jupyter 
 ipykernel
+matplotlib
+numpy
