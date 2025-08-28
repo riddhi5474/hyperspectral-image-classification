@@ -3,3 +3,5 @@ jupyter
 ipykernel
 matplotlib
 numpy
+random
+torch
